@@ -19,7 +19,7 @@ const MobileMenu = ({ menuOpen, setMenuOpen }) => {
         </button>
 
         <a
-          href="#"
+          href="#home"
           onClick={() => setMenuOpen(false)}
           className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300
                       ${
@@ -31,7 +31,7 @@ const MobileMenu = ({ menuOpen, setMenuOpen }) => {
           Home
         </a>
         <a
-          href="#"
+          href="#about"
           onClick={() => setMenuOpen(false)}
           className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300
                       ${
@@ -43,7 +43,7 @@ const MobileMenu = ({ menuOpen, setMenuOpen }) => {
           About
         </a>
         <a
-          href="#"
+          href="#Project"
           onClick={() => setMenuOpen(false)}
           className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300
                       ${
@@ -55,7 +55,7 @@ const MobileMenu = ({ menuOpen, setMenuOpen }) => {
           Project
         </a>
         <a
-          href="#"
+          href="#contact"
           onClick={() => setMenuOpen(false)}
           className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300
                       ${
